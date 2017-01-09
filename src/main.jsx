@@ -1,5 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var List =require('./components/List.jsx');
+var ListWrapper =require('./components/ListWrapper.jsx');
 
-ReactDOM.render(<List/>, document.getElementById('ingredients'));
+
+ReactDOM.render(<ListWrapper/>, document.getElementById('app'));

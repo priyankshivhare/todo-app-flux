@@ -1,5 +1,5 @@
 {
-  "name": "react-skeleton",
+  "name": "todo-app-flux",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,19 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/priyankshivhare/react-skeleton.git"
+    "url": "git+https://github.com/priyankshivhare/todo-app-flux.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/priyankshivhare/react-skeleton/issues"
+    "url": "https://github.com/priyankshivhare/todo-app-flux/issues"
   },
-  "homepage": "https://github.com/priyankshivhare/react-skeleton#readme",
+  "homepage": "https://github.com/priyankshivhare/todo-app-flux#readme",
   "dependencies": {
     "babel-preset-react": "^6.16.0",
     "babelify": "^7.3.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "watchify": "^3.8.0"
+    "reflux": "^5.0.4",
+    "watchify": "^3.8.0",
+    "whatwg-fetch": "^2.0.1"
   }
 }
